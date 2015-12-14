@@ -4,23 +4,21 @@ import java.util.Random;
 import java.util.Stack;
 
 /**
- * Write a description of class KortBunke here.
+ * Write a description of class CardCollection here.
  *
  * @author (your name)
  * @version (a version number or a date)
  */
-public class KortBunke
+public class CardCollection
 {
     // instance variables - replace the example below with your own
     private enum suit {SPADES, DIAMONDS, CLUBS, HEARTS}
     Stack<Kort> kort = new Stack<>();
 
-    public KortBunke()
+    public CardCollection()
     {
 
     }
-
-
 
 
     /**
