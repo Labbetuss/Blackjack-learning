@@ -2,13 +2,13 @@ package com.learning.blackjack;
 
 
 
-public class Kort
+public class Card
 {
 
     private String suit;
     private int rank;
 
-    public Kort(String suit, int rank)
+    public Card(String suit, int rank)
     {
         this.suit = suit;
         this.rank = rank;
